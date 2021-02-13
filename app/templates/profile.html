@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block main %}
+<div class = "all">
+	<div class = "head">
+		<img src="{{url_for('static', filename='img.png')}}">
+		<h1>David Scott</h1>
+		<p>@dscott<br>Kingston, Jamaica<br>{{ x }} </p>
+	</div>
+	<div class = "foot">
+		<p>I am a Computer Science Major at the University of the
+		West Indies, Mona and I like Web Development.</p>
+		<div class = "figures">
+			<h2>11</h2><h2>31</h2><h2>49</h2>
+		</div>
+		<div class ="text">
+			<p>Posts</p><p>Following</p><p>Followers</p>
+		</div>
+		<button id="btn">Follow</button>
+	</div>
+</div>
+{% endblock %}

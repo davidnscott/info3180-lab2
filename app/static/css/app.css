@@ -1,3 +1,44 @@
 body {
     padding-top: 5rem;
+	text-align:center;
 }
+
+img{
+	border-radius:50%;
+	height: 250px;
+	width: 250px;
+}
+
+.head{
+	background-color:CornflowerBlue;
+}
+.head p{
+		color:white;
+}
+.foot{
+	background-color:LightYellow;	
+}
+
+#btn{
+	background-color:LightGreen;
+}
+
+.all{
+	border:2px solid black;
+	padding-bottom:20px;
+}
+
+.figures{
+	display:flex;
+	flex-direction:row;
+	grid-gap:35px;
+	justify-content:center;
+}
+.text{
+	display:flex;
+	flex-direction:row;
+	grid-gap:10px;
+	justify-content:center;
+}
+
+
